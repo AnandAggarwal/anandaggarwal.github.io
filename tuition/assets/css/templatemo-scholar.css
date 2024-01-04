@@ -87,7 +87,7 @@ a {
   text-decoration: none !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   color: #fff;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #1e1e1e;
+  color: #D69610;
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: 700;
@@ -682,7 +682,7 @@ Banner Style
 }
 
 .main-banner .item-1 {
-  background-image: url(../images/banner-item-04.jpg);
+  background-image: url(../images/banner-item-01.jpg);
 }
 
 .main-banner .item-2 {
@@ -1151,12 +1151,14 @@ Team Style
 */
 
 .team {
-  margin-top: 100px;
-    padding-top: 140px;
+  margin-top: 0px;
+    padding-top: 50px;
 }
 
 .team-member {
   position: relative;
+  left: 155%;
+  margin-top: 100px;
 }
 
 .team-member:hover img {
@@ -1181,7 +1183,7 @@ Team Style
 }
 
 .team-member .main-content span.category {
-  color: #298c5a;
+  color: #fff;
   font-size: 15px;
 }
 
@@ -1387,13 +1389,13 @@ Events Style
 .events .item ul li span {
   display: inline-block;
   font-size: 14px;
-  color: #4a4a4a;
+  color: #fff;
   margin-bottom: 10px;
 }
 
 .events .item ul li h6 {
   font-size: 16px;
-  color: #298c5a;
+  color: #fff;
   font-weight: 600;
 }
 
